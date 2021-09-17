@@ -1,0 +1,52 @@
+:root {
+    --grey: #E8E8E8;
+    --red: #F05454;
+    --blue: #30475E;
+    --darkblue: #222831;
+  }
+
+  * {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--darkblue);
+  }
+  a {
+      color: var(--darkblue);
+      font-size: 1.5em;
+      font-style: bold;
+  }
+
+body {
+    background: var(--grey);
+    color: white;
+    margin: 0;
+    padding: 0; 
+}
+
+header {
+    margin: 0;
+    background-color: var(--red);
+}
+
+.navigation > li {
+    display: inline;
+    margin-right: 5%;
+    vertical-align: middle;
+}
+nav{
+    text-align: center;
+    
+}
+#logo{
+    margin: 0px 50px;
+}
+
+#welcome {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20%;
+}
+
+#courses {
+    background-color: var(--red);
+    padding: 20%;
+}
