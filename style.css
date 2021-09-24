@@ -30,10 +30,6 @@
       font-style: bold;
       text-decoration: none; /* fjerner underline */ 
   }
-  /*Når musepeker er over link */
-  a:hover {
-      color: yellow;
-  }
 
 body {
     background: var(--grey);
@@ -49,27 +45,32 @@ header {
     text-align: center; /* sentrerer innhold i header */
 }
 
+nav a {
+    float: none;
+    color: var(--darkblue);
+    padding: 20px 37px;
+    text-decoration: none;
+    font-size: 26px;
+}
+
 .navigation {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: var(--red);
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+    height: 50px;
+}
+
+/*Når musepeker er over link */
+.navigation a:hover {
+    color: yellow;
 }
 
 .navigation > li {
-    display: inline;
-    margin-right: 5%;
-    vertical-align: middle;
+  width: 200px;
+  height: 0;
+  text-align: center;
+  display: inline-block;
+  padding-top: 5px;
+  font-size: 30px;
 }
 
-nav{
-    text-align: center;
-    
-}
 #logo{
     font-family: 'Shadows Into Light', cursive;
     text-align: center;

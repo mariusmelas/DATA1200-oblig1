@@ -16,7 +16,9 @@
      
 }
 
-
+.logo > img {
+    width: 300px;
+}
 
 .menu img {
     width: 180px;
