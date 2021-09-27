@@ -163,6 +163,10 @@ aside {
     gap: 50px;
 }
 
-#courses > h1{
+ h1{
     color: var(--red);
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: 2em;
+    text-decoration: underline;
 }
