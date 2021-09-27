@@ -172,3 +172,8 @@ aside {
     margin: 50px;
     text-align: center;
 }
+
+#gmap_canvas {
+    width: 600;
+    height: 400;
+}
