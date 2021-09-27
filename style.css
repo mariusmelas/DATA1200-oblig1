@@ -20,7 +20,7 @@ a {
     /*Setter properties for alle a-tagger (linker) */
     color: var(--darkblue);
     font-size: 1.5em; /* 1.5 * fontstørrelse til browser */ 
-    font-style: bold;
+    font-weight: bold;
     text-decoration: none; /* fjerner underline */ 
 }
 
