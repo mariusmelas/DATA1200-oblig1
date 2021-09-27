@@ -62,9 +62,7 @@ nav a {
     font-size: 26px;
 }
 
-.navigation {
-    height: 50px;
-}
+
 
 .navigation > li {
     width: 200px;
@@ -73,6 +71,7 @@ nav a {
     display: inline-block;
     padding-top: 5px;
     font-size: 30px;
+    align-items: center;
 }
 
 html {
@@ -169,4 +168,8 @@ aside {
     font-size: 5em;
     margin-bottom: 2em;
     text-decoration: underline;
+}
+.reportname{
+    margin: 50px;
+    text-align: center;
 }

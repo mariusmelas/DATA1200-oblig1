@@ -1,5 +1,6 @@
 :root{
     --purple: purple;
+    --red: #F05454 ;
 }
 
 * {
@@ -75,7 +76,7 @@ dd > p {
     margin-bottom: 0.5rem;
 }
 .course-title h3 span{
-    color: var(--purple);
+    color: var(--red);
 }
 .img1:hover, .img2:hover, .img3:hover{
     border-radius: 0;
@@ -92,7 +93,7 @@ dd > p {
     content:"";
     width: 200px;
     height: 1px;
-    background-color: coral;
+    background-color: var(--red);
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -100,9 +101,6 @@ dd > p {
 .course-title h3{
         position:sticky;
     }
-.sidetittel{
-    text-decoration: underline coral;
 
 
-}
 
