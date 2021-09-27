@@ -63,7 +63,6 @@ nav a {
 }
 
 
-
 .navigation > li {
     /*width: 200px;*/
     height: 0;
@@ -88,7 +87,7 @@ html {
     text-align: center;
     font-size: 1.5em;
     padding: 20%;
-    background-image:url("/img/italian-restaurant_npreviews_54a7.jpeg");
+    background-image:url("img/italian-restaurant_npreviews_54a7.jpeg");
     background-size: 100% auto;
     
 }
