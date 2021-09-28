@@ -123,7 +123,7 @@ html {
     display: inline-block;
 }
 
-#contact{
+#contact > ul {
     display: flex;
     justify-content: space-around;
     padding: 30px;
