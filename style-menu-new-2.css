@@ -109,3 +109,13 @@ h2.category-title {
 
 }
 
+.text2 > h4 {
+    display: inline;
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+.text2 > p {
+    display: inline;
+}
