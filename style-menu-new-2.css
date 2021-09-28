@@ -109,13 +109,13 @@ h2.category-title {
 
 }
 
-.text2 > h4 {
+h4.allergens-title {
     display: inline;
     font-weight: normal;
     font-style: italic;
 
 }
 
-.text2 > p {
+p.allergens-text {
     display: inline;
 }
