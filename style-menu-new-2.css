@@ -39,8 +39,7 @@
     gap: 2.5rem;
 }
 
-
-.menu .course-list {
+.course-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -66,7 +65,7 @@ li {
     color: var(--red);
 }
 
-.img1:hover, .img2:hover, .img3:hover{
+.img1:hover {
     border-radius: 0;
 }
 
