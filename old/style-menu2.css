@@ -33,37 +33,28 @@
    */ 
 
    margin: 0 auto;
-   margin-bottom: 0.5rem;
+   margin-bottom: 5rem;
    width: 80%;
    
 }
 
-.single-menu {
-    margin: 0 auto;
-}
-.single-menu > ul {
+
+.menu dl {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 2.5rem;
 }
 
-
-.menu .course-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 45%;
-    flex-direction: column;
-}
-
 .course-test {
     /*display: flex;*/
     width: 45%;
 }
+#text-pasta-pesto {
+    width: 45%;
+}
 
-.course-title {
-    margin: auto;
+dt {
     margin-bottom: 0.5rem;
     padding-bottom: 0.5rem;
     text-align: center;
@@ -76,20 +67,24 @@ li {
     margin-bottom: 5rem;
 }
 
+h1 {
+    color: var(--red);
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: 2em;
+    text-decoration: underline;
+}
+
+
 h2 {
     color: var(--red);
     font-size: 3.5rem;
-    margin-bottom: 4rem;
 }
 
-.course-description {
-    margin: auto;
-}
-
-.course-description > p {
+dd > p {
     margin-bottom: 0.5rem;
 }
-.course-title h3 span{
+.dt h3 span{
     color: var(--red);
 }
 .img1:hover, .img2:hover, .img3:hover{
@@ -102,7 +97,7 @@ h2 {
     padding: 3px;
     transition: .5s;
 }
-.course-title h3:before{
+.dt h3:before{
     position: absolute;
     content:"";
     width: 200px;
@@ -112,6 +107,6 @@ h2 {
     left: 50%;
     transform: translateX(-50%);
     }
-.course-title h3{
+dt h3{
         position:sticky;
     }

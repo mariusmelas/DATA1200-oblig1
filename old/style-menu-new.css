@@ -33,28 +33,37 @@
    */ 
 
    margin: 0 auto;
-   margin-bottom: 5rem;
+   margin-bottom: 0.5rem;
    width: 80%;
    
 }
 
-
-.menu dl {
+.single-menu {
+    margin: 0 auto;
+}
+.single-menu > ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 2.5rem;
 }
 
+
+.menu .course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 45%;
+    flex-direction: column;
+}
+
 .course-test {
     /*display: flex;*/
     width: 45%;
 }
-#text-pasta-pesto {
-    width: 45%;
-}
 
-dt {
+.course-title {
+    margin: auto;
     margin-bottom: 0.5rem;
     padding-bottom: 0.5rem;
     text-align: center;
@@ -70,12 +79,17 @@ li {
 h2 {
     color: var(--red);
     font-size: 3.5rem;
+    margin-bottom: 4rem;
 }
 
-dd > p {
+.course-description {
+    margin: auto;
+}
+
+.course-description > p {
     margin-bottom: 0.5rem;
 }
-.dt h3 span{
+.course-title h3 span{
     color: var(--red);
 }
 .img1:hover, .img2:hover, .img3:hover{
@@ -88,7 +102,7 @@ dd > p {
     padding: 3px;
     transition: .5s;
 }
-.dt h3:before{
+.course-title h3:before{
     position: absolute;
     content:"";
     width: 200px;
@@ -98,9 +112,6 @@ dd > p {
     left: 50%;
     transform: translateX(-50%);
     }
-dt h3{
+.course-title h3{
         position:sticky;
     }
-
-
-

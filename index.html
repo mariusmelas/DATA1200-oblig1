@@ -6,21 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Papa's Pizzeria</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style-menu-new-2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style-menu2.css">
     <link rel="icon" href="img/icon.png">
+
 </head>
 
 <body>
     <header id="header">
         <div class="logo">
-            <p id="logo"></p>
-            <img src="img/logoNEW.png" id="logo-img" alt="logo">
+            <img class="logo" src="img/logoNEW.png" id="logo-img" alt="resturant logo">
         </div>
     </header>
 
@@ -31,151 +31,137 @@
             <li><a href="/Report/index.html">Report</a></li>
         </ul>
     </nav>
-
-    <section id="welcome">
+    <main>
+    <section>
+    <div id="welcome">
         <div id="welcome-text">
             <p>Best pasta and pizza in town!</p>
         </div>
+    </div>
     </section>
     <section id="courses">
+
         <h1>Our courses</h1>
 
         <ul class="menu">
-            <li>
+            <li class="category-menu">
                 <h2 class="sidetittel">Pasta</h2>
-            </li>
-            <dl class="single-menu">
 
-                <div class="course-test">
-                    
-                    <dt>
-                        <div class="course-title">
+
+                <ul class="course-menu">
+
+                    <li class="course-list">
+                        <div class="course-title dt">
                             <img class="img1" src="img/pastaplaceholder.jpeg" alt="pasta-placeholder">
                             <h3>Spaghetti Carbonara <span>100kr</span></h3>
                         </div>
-                    </dt>
-                    <dd>
-                        <p class="text1">Pasta with crispy bacon and creamy sauce made from eggs topped with parmesan
-                            cheese.</p>
-                        <p class="text2"><em>Allergens: dairy, wheat/gluten and egg</em></p>
-                    </dd>
-                </div>
-                <div class="course-test">
-                    <dt>
-                        <div class="course-title">
+                        <div class="course-description dd">
+                            <p class="text1">Pasta with crispy bacon and creamy sauce made from eggs topped with
+                                parmesan
+                                cheese.</p>
+                            <p class="text2"><em>Allergens: dairy, wheat/gluten and egg</em></p>
+                        </div>
+                    </li>
+                    <li class="course-list">
+                        <div class="course-title dt">
                             <img class="img2" src="img/pastaplaceholder.jpeg" alt="pasta-placeholder">
                             <h3>Pasta Bolognese <span>100kr</span></h3>
                         </div>
-                    </dt>
-                    <dd>
-                        <p class="text1">Pasta cooked in our delicious homemade pesto sauce made with fresh basil, pine
-                            nuts, olive oil, garlic and parmesan cheese</p>
-                        <p class="text2"><em>Allergens: dairy, wheat/gluten and soy</em></p>
-                    </dd>
-                </div>
-                <div class="course-test">
-                    <dt>
-                        <div class="course-title">
+                        <div class="course-description dd">
+                            <p class="text1">Pasta cooked in our delicious homemade pesto sauce made with fresh basil,
+                                pine
+                                nuts, olive oil, garlic and parmesan cheese</p>
+                            <p class="text2"><em>Allergens: dairy, wheat/gluten and soy</em></p>
+                        </div>
+                    </li>
+                    <li class="course-list">
+                        <div class="course-title dt">
                             <img class="img3" src="img/pastaplaceholder.jpeg" alt="pasta-placeholder">
                             <h3>Pesto Pasta <span>100kr</span></h3>
                         </div>
-                    </dt>
-                    <dd>
-                        <p class="text1">Pasta cooked in our delicious homemade pesto sauce made with fresh
-                        basil, pine nuts, olive oil, garlic and parmesan cheese</p>
-                        <p class="text2"><em>Allergens: dairy, wheat/gluten and tree nuts</em></p>
-                    </dd>
-                </div>
-            </dl>
-        </ul>
-
-        <ul class="menu">
-            <li>
-                <h2 class="sidetittel">Pizza</h2>
+                        <div class="course-description dd">
+                            <p class="text1">Pasta cooked in our delicious homemade pesto sauce made with fresh
+                                basil, pine nuts, olive oil, garlic and parmesan cheese</p>
+                            <p class="text2"><em>Allergens: dairy, wheat/gluten and tree nuts</em></p>
+                        </div>
+                    </li>
+                </ul>
             </li>
-            <dl class="single-menu">
-                <div class="course-test">
-                    <div class="course-title">
-                        <dt>
+            <li class="category-menu">
+                <h2 class="sidetittel">Pizza</h2>
+
+                <ul class="course-menu">
+                    <li class="course-list">
+                        <div class="course-title">
                             <img class="img1" src="img/pizzaplaceholder.jpeg" alt="pizza-illustration">
                             <h3>Pizza Margherita <span>100kr</span></h3>
-                    </div>
-                    </dt>
-                    <dd>
-                        <p class="text1">Pizza with tomato sauce, fresh mozzarella and fresh basil.</p>
-                        <p class="text2"><em>Allergens: dairy, wheat/gluten and soy</em></p>
-                    </dd>
-                </div>
+                        </div>
+                        <div class="course-description dd">
+                            <p class="text1">Pizza with tomato sauce, fresh mozzarella and fresh basil.</p>
+                            <p class="text2"><em>Allergens: dairy, wheat/gluten and soy</em></p>
+                        </div>
+                    </li>
 
-                <div class="course-test">
-                    <dt>
+                    <li class="course-list">
                         <div class="course-title">
                             <img class="img1" src="img/pizzaplaceholder.jpeg" alt="pizza-illustration">
                             <h3>Pepperoni Pizza <span>100kr</span></h3>
                         </div>
-                    </dt>
-                    <dd>
-                        <p class="text1">Pizza with tomato sauce, fresh mozzarella, pepperoni and bell peppers.</p>
-                        <p class="text2"><em>Allergens: dairy, wheat/gluten and soy</em></p>
-                    </dd>
-                </div>
+                        <div class="course-description">
+                            <p class="text1">Pizza with tomato sauce, fresh mozzarella, pepperoni and bell peppers.</p>
+                            <p class="text2"><em>Allergens: dairy, wheat/gluten and soy</em></p>
+                        </div>
+                    </li>
 
-                <div class="course-test">
-                    <dt>
+                    <li class="course-list">
                         <div class="course-title">
                             <img class="img1" src="img/pizzaplaceholder.jpeg" alt="pizza-illustration">
                             <h3>Vegetarian Pizza <span>100kr</span></h3>
                         </div>
-                    </dt>
-                    <dd>
-                        <p class="text1">Pizza with tomato sauce, fresh mozzarella, onion, tomato, bell pepper,
-                            mushrooms, olives.</p>
-                        <p class="text2"><em>Allergens: dairy, wheat/gluten and soy</em></p>
-                    </dd>
-                </div>
-
-            </dl>
-        </ul>
-        <ul class="menu">
-            <li>
-                <h2 class="sidetittel">Snacks</h2>
+                        <div class="course-description">
+                            <p class="text1">Pizza with tomato sauce, fresh mozzarella, onion, tomato, bell pepper,
+                                mushrooms, olives.</p>
+                            <p class="text2"><em>Allergens: dairy, wheat/gluten and soy</em></p>
+                        </div>
+                    </li>
+                </ul>
             </li>
-            <dl class="single-menu">
-                <div class="course-test">
-                    <div class="course-title">
-                        <dt>
+
+            <li class="category-menu">
+                <h2 class="sidetittel">Snacks</h2>
+
+                <ul class="course-menu">
+                    <li class="course-list">
+                        <div class="course-title">
                             <img class="img1" src="img/snacks-placeholder.jpeg" alt="snacks-illustration">
                             <h3>Bruchetta <span>100kr</span></h3>
-                    </div>
-                    </dt>
-                    <dd>
-                        <p class="text1">Delicious toasted bread topped with chopped tomatoes, mozzarella cheese,
-                            peppers and fresh herbs.</p>
-                        <p class="text2"><em>Allergens: dairy, wheat/gluten and soy </em></p>
-                    </dd>
-                </div>
+                        </div>
+                        <div class="course-description dd">
+                            <p class="text1">Delicious toasted bread topped with chopped tomatoes, mozzarella cheese,
+                                peppers and fresh herbs.</p>
+                            <p class="text2"><em>Allergens: dairy, wheat/gluten and soy </em></p>
+                        </div>
+                    </li>
 
-                <div class="course-test">
-                    <dt>
-                        <div class="course-title">
+                    <li class="course-list">
+                        <div class="course-title dt">
                             <img class="img1" src="img/snacks-placeholder.jpeg" alt="snacks-illustration">
                             <h3>Focaccia <span>100kr</span></h3>
                         </div>
-                    </dt>
-                    <dd>
-                        <p class="text1">Italian flat-bread topped with olives and tomatoes.</p>
-                        <p class="text2"><em>Allergens: gluten</em></p>
-                    </dd>
-                </div>
-
-
+                        <div class="course-description dd">
+                            <p class="text1">Italian flat-bread topped with olives and tomatoes.</p>
+                            <p class="text2"><em>Allergens: gluten</em></p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
         </ul>
-
     </section>
-    
-    <footer id="contact">
-        <aside>
-            <p class="contact-logo"><strong>Opening Hours!</strong></p>
+    <section id="contact">
+
+
+        <div id="opening-hours">
+            <p class="contact-title">Opening Hours!</p>
             <p>Mandag: 10:00 - 24:00</p>
             <p>Tirsdag: 10:00 - 24:00</p>
             <p>Onsdag: 10:00 - 24:00</p>
@@ -183,40 +169,18 @@
             <p>Fredag: 10:00 - 24:00</p>
             <p>Lørdag: 10:00 - 22:00</p>
             <p>Søndag: 12:00 - 18:00</p>
-        </aside>
-        <adress>
-            <p class="contact-logo"><strong>Visit us!</strong></p>
+        </div>
+        <div id="adress">
+            <p class="contact-title">Visit us!</p>
             <p>Pilestredet 35</p>
-            <p>0156 Oslo</p>
+            <p>0156 Oslo </p>
             <p>Tlf: 0047 12345678</p>
             <p>Mail: contact@papaspizza.com</p>
-        </adress>
-
-        <div class="mapouter">
-            <div class="gmap_canvas"><iframe width="600" height="400" id="gmap_canvas"
-                    src="https://maps.google.com/maps?q=pilestredet%2035&t=&z=17&ie=UTF8&iwloc=&output=embed"
-                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                    href="https://123movies-to.org"></a><br>
-                <style>
-                    .mapouter {
-                        position: relative;
-                        text-align: right;
-                        height: 400px;
-                        width: 600px;
-                    }
-                </style><a href="https://www.embedgooglemap.net"></a>
-                <style>
-                    .gmap_canvas {
-                        overflow: hidden;
-                        background: none !important;
-                        height: 400px;
-                        width: 600px;
-                    }
-                </style>
-            </div>
         </div>
 
-    </footer>
+        <img src="img/map-placeholder.jpeg" alt="map to resturant">
+    </section>
+    </main>
 </body>
 
 </html>
