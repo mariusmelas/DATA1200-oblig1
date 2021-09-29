@@ -7,14 +7,14 @@
     <title>Report</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/style-menu-new-2.css">
-<link rel="stylesheet" href="/style2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style-menu-new-2.css">
+    <link rel="stylesheet" href="/style2.css">
+    <link rel="icon" href="../img/icon.png">
 </head>
-<body>
+
+<body id="report-page">
     <header id="header">
         <div class="logo">
         <img src="/img/logo.png"  id="logo-img" alt="logo">
@@ -28,39 +28,70 @@
         </nav>
     </header>
 
+    <main>
+        <div class="reportname">
+        <p>Our Report</p>
+        </div>
 
-    <div class="reportname">
-    <p>Our Report</p>
-    </div>
-    <pre>
-        - Minimalist design layout
-        - Only two parts of important information, so we choosed a single page layout. 
-        - Simple color-palette, with little distractions. 
-        - Using proper html tags, navigation inside nav, courses menu, as courses are related to either pizza, pasta or snacks, inside li. 
-        - Definition list for the courses itself.
-        - Navigation bar sticked to top, so its always available for the user and they don't have to scroll back to the top of the page.
-        - We made the fonts fairly big so it is easier to read.
+        <div class="report">
+        <!--<p>
+            - Minimalist design layout
+            - Only two parts of important information, so we choosed a single page layout. 
+            - Simple color-palette, with little distractions. 
+            - Using proper html tags, navigation inside nav, courses menu, as courses are related to either pizza, pasta or snacks, inside li. 
+            - Definition list for the courses itself.
+            - Navigation bar sticked to top, so its always available for the user and they don't have to scroll back to the top of the page.
+            - We made the fonts fairly big so it is easier to read.
+        </p>
 
+        <p>
+            Achecker (WCAG 2.0 Level AA) gave 0 known problems (), 8 likely problems, 89 potentially problems. 
+            Most of the potentially problems adresses contrast-issues with the images, we see no need to worry about that for know, as the 
+            images are placeholders. 
+        </p>
 
-        Achecker (WCAG 2.0 Level AA) gave 0 known problems (), 8 likely problems, 89 potentially problems. 
-        Most of the potentially problems adresses contrast-issues with the images, we see no need to worry about that for know, as the 
-        images are placeholders. 
-        
+        <p>
+            After Achecker: 
+            - Changing section to div due to error
+        </p>    
 
+        <p>
+            After Html validator: 
+            We had dl inside ul, that was not allowed. We then chaged it to ul and divs instead.
+        </p>-->
 
-        After Achecker: 
-        - Changing section to div due to error
-        - 
-        
+        <p>
+            In order to ensure universal accessibility for users with different needs and situations we undertook several preparations. Firstly, we decided on a more 
+            minimalist design layout for our website so the users can easily find the important information that they need. We also kept it simple by having a two page 
+            layout with one main page for the menu and restaurant information and this page solely for the report. Another preparation we did was to have a simple color 
+            palette consisting of 5 main colors so as not to distract the user from the important parts of the page. The colors we chose also have fairly high contrast 
+            between each other and are colorblind friendly such that the page is easy to navigate through and read for people with colorblindness.
+        </p>
 
-        After Html validator: 
-         We had dl inside ul, that was not allowed. We then chaged it to ul and divs instead.
-         
-        In order to ensure universal accessibility for users with different needs and situations we undertook several preparations. Firstly,
-        we decided to have a minimalist design layout. This makes sure that the users find important information easily. As the website is only
-        meant to have the menu and information about the restaurant such as contact, location and opening hours, we chose to have a two page layout
-        with one main page for the menu and restaurant information and this page solely for the report. Another preparation we did was to have a
-        simple colour palette consisting of 5 main colours so as not to distract from the important parts of the page.
-    </pre>
+        <p>
+            The navigation was also programmed to be sticky, in other words it stays at the top of the page as you scroll down the page. This creates a better user 
+            experience as the navigation bar is always available and the users do not have to scroll back to the top of the page. The fonts of the page were also made 
+            fairly big so it is easier to read even for people with poorer eyesight or difficulties with reading. As for the font-family, we chose Poppins as the default 
+            and sans-serif as the fallback font. Both of these fonts are simple without any added designs which makes them easy to read.
+        </p>
+
+        <p>
+            Initially, we also planned to have definition lists for the description and allergens of the courses in order to have better search engine optimisation. 
+            This is so that search engines can recognise that the definition lists are the part of the page where the dishes are described along with the list of allergens. 
+            , we used proper html tags such as using the nav element for the navigation bar; header tags to indicate the importance of titles; a title element in the header 
+            so the website is easier to find for users using search engines; and alt tags for the images.
+        </p>
+
+        <p>
+            Achecker (WCAG 2.0 Level AA) gave 0 known problems, 8 likely problems, 89 potential problems. Most of the potential problems address contrast-issues with the 
+            images, we see no need to worry about that for now, as the images are placeholders where the restaurant will place their own images of their dishes. We did not 
+            include separate images of the different dishes as we found it hard to find images which are not copyright protected and have consistent styles and sizing. The 
+            8 likely problems were due to the paragraph element containing the allergens of the different dishes. Achecker mentions that the p element could be misused. 
+            We fixed this by changing it into an h4 element instead. We also performed an HTML as well as a CSS validity checker. According to the checker, our CSS code was 
+            valid. However, our HTML code had some errors, we had dl elements inside of ul elements which were not permitted. As a result, we changed dd and dt tags into ul 
+            and div tags instead.
+        </p>
+        </div>
+    </main>
 </body>
 </html>
