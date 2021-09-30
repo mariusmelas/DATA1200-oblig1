@@ -117,8 +117,20 @@ nav li {
 }
 
 .reportname{
-    margin: 50px;
+    margin: 50px 50px 30px;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
+}
+
+.report {
+    padding: 0 60px;
+    margin: 0px 60px 50px;
+}
+
+.report p {
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 1em;
+    font-size: 17px;
 }
